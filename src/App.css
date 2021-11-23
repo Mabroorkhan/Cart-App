@@ -1,0 +1,132 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.resButton{
+  /* padding-left: 5px !important; */
+  margin-right: 10px !important;
+}
+
+.res2{
+  font-weight: bold;
+  color: #337fe2;
+  /* text-align: center; */
+}
+.p-view{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(13, 131, 204);
+  font-weight: bold;
+  margin: auto;
+  margin-top: 15px !important;
+  margin-bottom: 20px;
+  padding-bottom: 10px !important ;
+  text-align: center;
+}
+.p-view:hover{
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.res1{
+  /* padding-right: 0px !important; */
+  padding-left: 60px !important;
+}
+
+.res3{
+  margin-right: 220px !important;
+  margin-left: 45px;
+}
+.res4{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(52, 174, 250);
+}
+.right{
+  text-align: right;
+}
+.cartButton{
+  text-align: right;
+  /* color: orangered; */
+  padding-top: 12px;
+}
+.prod-display {
+  padding-left: 13px;
+}
+.color{
+  color: rgb(236, 111, 8);
+}
+.prod-display2{
+  padding-left: 0px;
+}
+.cartPrice{
+  text-align: right;
+  font-weight: 50px;
+}
+.Login{
+  color: white;
+  margin-top: 30vh;
+  /* margin-bottom: 200px;
+  margin-left: 250px;
+  margin-right: 250px; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw;
+  height: 100vh; */
+}
+.login-button{
+  margin: 10px;
+ margin-right: 20px auto;
+  text-align: right;
+}
+.notFound{
+text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.category-button{
+  margin-top: 3vh;
+}
+.cartCount{
+  margin-top: 1vh;
+}
