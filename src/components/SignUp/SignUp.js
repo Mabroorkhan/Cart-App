@@ -32,7 +32,8 @@ function SignUp() {
 
         if (role === "admin") {
 
-            registeredArrSet(role, [...adminCheck, data])
+            let arr = [...adminCheck, data];
+            registeredArrSet(role, arr)
 
             setData({
                 email: '',
@@ -48,7 +49,8 @@ function SignUp() {
 
         if (role === "user") {
 
-            registeredArrSet(role, [...userCheck, data])
+            let arr =[...userCheck, data];
+            registeredArrSet(role, arr)
 
             setData({
                 email: '',

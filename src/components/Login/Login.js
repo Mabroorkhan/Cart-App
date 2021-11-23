@@ -6,7 +6,7 @@ import { registeredObjGet, registeredObjSet } from "../helper/localStorageHelper
 function Login() {
 
     const navigate = useNavigate();
-    const [role, setRole] = useState();
+    const [log, setLog] = useState();
     const [showAlert, setShowAlert] = useState(false);
     const [data, setData] = useState({
         email: '',
@@ -24,7 +24,8 @@ function Login() {
 
     const LoginCheck = () => {
 
-        let authenticate = [...registeredObjGet(role)];
+        let authenticate = registeredObjGet(log);
+        console.log(authenticate)
 
         let loginEmail = authenticate.find(i => i.email === data.email);
         let loginPassword = authenticate.find(i => i.password === data.password);
@@ -32,7 +33,7 @@ function Login() {
         if ((loginEmail?.email === data.email) && (loginPassword?.password === data.password)) {
             navigate('/home')
 
-            registeredObjSet(role,{role:role})
+            registeredObjSet("role",{role:log})
         }
 
         else {
@@ -99,16 +100,16 @@ function Login() {
                                 id={`dropdown-button-drop`}
                                 size="sm"
                                 variant="secondary"
-                                title={role ? role : "Login As"}
+                                title={log ? log : "Login As"}
                             >
                                 <Dropdown.Item
                                     eventKey="1"
-                                    onClick={() => setRole("admin")}>
+                                    onClick={() => setLog("admin")}>
                                     admin
                                 </Dropdown.Item>
                                 <Dropdown.Item
                                     eventKey="2"
-                                    onClick={() => setRole("user")}>
+                                    onClick={() => setLog("user")}>
                                     user
                                 </Dropdown.Item>
                             </DropdownButton>
@@ -120,7 +121,7 @@ function Login() {
                         <Col sm={{ span: 4, offset: 2 }}>
                             <Button
                                 type="button"
-                                disabled={!(data.email && data.password && role)}
+                                disabled={!(data.email && data.password && log)}
                                 onClick={() => LoginCheck()}
                             >
                                 Sign in
