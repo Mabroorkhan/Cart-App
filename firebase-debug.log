@@ -1,0 +1,94 @@
+[debug] [2021-11-23T13:49:29.906Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T13:49:29.910Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO T420S\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-23T13:49:29.910Z] CLI Version:   9.23.0
+[debug] [2021-11-23T13:49:29.910Z] Platform:      win32
+[debug] [2021-11-23T13:49:29.910Z] Node Version:  v14.18.1
+[debug] [2021-11-23T13:49:29.969Z] Time:          Tue Nov 23 2021 18:49:29 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-11-23T13:49:29.970Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T13:49:30.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T13:49:30.114Z] > authorizing via signed-in user (mabroorkhan123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Mabroor\cart-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using cart-app-f35ab. 
+[debug] [2021-11-23T13:49:39.442Z] > refreshing access token with scopes: []
+[debug] [2021-11-23T13:49:39.443Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-23T13:49:40.786Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 23 Nov 2021 13:49:41 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T13:49:40.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab [none]
+[debug] [2021-11-23T13:49:41.416Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab 200
+[debug] [2021-11-23T13:49:41.416Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab {"projectId":"cart-app-f35ab","projectNumber":"212441735289","displayName":"Cart-App","name":"projects/cart-app-f35ab","resources":{"hostingSite":"cart-app-f35ab"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-11-23T13:51:45.445Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T13:51:45.448Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO T420S\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-23T13:51:45.449Z] CLI Version:   9.23.0
+[debug] [2021-11-23T13:51:45.449Z] Platform:      win32
+[debug] [2021-11-23T13:51:45.449Z] Node Version:  v14.18.1
+[debug] [2021-11-23T13:51:45.451Z] Time:          Tue Nov 23 2021 18:51:45 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-11-23T13:51:45.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T13:51:45.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T13:51:45.535Z] > authorizing via signed-in user (mabroorkhan123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Mabroor\cart-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using cart-app-f35ab. 
+[debug] [2021-11-23T13:51:51.019Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab [none]
+[debug] [2021-11-23T13:51:51.545Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab 200
+[debug] [2021-11-23T13:51:51.546Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cart-app-f35ab {"projectId":"cart-app-f35ab","projectNumber":"212441735289","displayName":"Cart-App","name":"projects/cart-app-f35ab","resources":{"hostingSite":"cart-app-f35ab"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2021-11-23T13:52:16.564Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-11-23T13:52:17.577Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-11-23T13:52:17.577Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.5.0","browserURL":"https://www.gstatic.com/firebasejs/9.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.5.0/firebase.tgz"},"live":{"version":"9.5","browserURL":"https://www.gstatic.com/firebasejs/live/9.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.memory.js"}}
