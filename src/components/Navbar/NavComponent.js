@@ -1,15 +1,18 @@
 import {
+    Badge,
     Container,
     Nav,
     Navbar,
     NavDropdown,
 } from "react-bootstrap";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { registeredObjGet, registeredObjSet } from "../helper/localStorageHelper";
 
 
 function NavComponent() {
 
+    const quantity = useSelector((state) => state.quantitySlice.products)
     const logCheck = registeredObjGet("role")
 
     const logOut = () => {
@@ -42,6 +45,7 @@ function NavComponent() {
                             <Nav.Link
                                 as={Link} to="/cart">
                                 Cart
+                                {quantity.length ? <Badge bg="dark">{quantity.length}</Badge> :<></>}
                             </Nav.Link>
                             : <></>}
                         <NavDropdown title={logCheck.role}>
